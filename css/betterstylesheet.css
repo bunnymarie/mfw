@@ -4,7 +4,6 @@ body {
   color: #ffecef;
   text-align: center;
   align-content: center;
-  list-style-position: inside;
 }
 
 a:link {
@@ -18,3 +17,18 @@ a:visited {
 a:hover {
   color: #e0dbf8;
 }
+
+ul {
+  display:inline-block;
+  width: 300px;
+  }
+  ul li {
+  text-align: left;
+  }
+  ol {
+    display:inline-block;
+    width: 500px;
+    }
+  ol li {
+  text-align: left;
+  }
